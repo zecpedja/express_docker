@@ -4,10 +4,7 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Your routes her
-
-
-
+// Your routes here
 
 app.get('/api/message', (req, res) => {
     res.json({ message: 'Hello from Express!' });
