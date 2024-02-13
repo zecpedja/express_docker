@@ -1,6 +1,7 @@
 // client/src/App.js
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import VStudio from "./VStudio";
 import './App.css';
 
 // Simple Home component
@@ -53,6 +54,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/vstudio" element={<VStudio />} /> {/* Add this line */}
                 </Routes>
             </div>
         </Router>

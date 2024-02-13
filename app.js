@@ -10,6 +10,10 @@ app.get('/api/message', (req, res) => {
     res.json({ message: 'Hello from Express!' });
 });
 
+app.get('/vstudio', (req, res) => {
+    res.json({ message: 'Vstudio' });
+});
+
 // ... after your API routes
 app.use(express.static(path.join(__dirname, 'client/build')));
 
