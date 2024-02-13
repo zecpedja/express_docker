@@ -30,6 +30,9 @@ const Navbar = () => (
             <li>
                 <Link to="/about">About</Link>
             </li>
+            <li>
+                <Link to="/vstudio">VStudio</Link> {/* Add this line */}
+            </li>
         </ul>
     </nav>
 );
